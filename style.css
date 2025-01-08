@@ -1,0 +1,122 @@
+/* .banner-section {
+  background: url("https://img.freepik.com/free-vector/realistic-dynamic-fog-background_23-2149111508.jpg") no-repeat center center/cover;
+  height: 80vh;
+  /* Adjust height as needed */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  /* Adds text readability */
+
+
+/* .banner-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.banner-section p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+} */ 
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#home {
+  background-image: url("images/bg3.avif");
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}
+
+#about img {
+  border-radius: 10px;
+}
+
+/* .card {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s;
+} */
+.card img {
+  height: 200px; /* Set a fixed height */
+  width: 100%; /* Make the image take up the full width of the card */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 5px; /* Optional: Rounded corners for images */
+}
+.card:hover {
+  transform: scale(1.05);
+}
+/*============services===========*/
+/* Services Section */
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusts columns based on screen size */
+  gap: 20px; /* Spacing between cards */
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px; /* Limit the width of the container */
+}
+/*========bookameeting=======*/
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Header */
+header {
+  background-image: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+/* Form */
+form {
+  border: 1px solid #ddd;
+}
+
+/* Labels */
+form .form-label {
+  font-weight: bold;
+}
+
+/* Footer */
+/* footer {
+  background-image: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+/* Card Styling */
+/*.card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Adds a hover effect */
+
+footer {
+  background: #2b2b2b; /* Dark background */
+}
+
+.footer h5 {
+  font-weight: bold;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: #f0ad4e; /* Highlight color */
+}
